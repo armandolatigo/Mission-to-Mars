@@ -83,7 +83,6 @@ def featured_image(browser):
     # ## Mars Facts Data Frame
 def mars_facts():
     try:
-
         mars_facts_df = pd.read_html('https://galaxyfacts-mars.com')[0]
     except BaseException:
         return None
